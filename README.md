@@ -1,7 +1,7 @@
 # Third Team Web Design
 
 ## Description  
-Web template design by Third Team (Bermuda &#9651; Triangle).
+Web template design by the Third Team (Bermuda &#9651; Triangle).
 
 ## Table of Contents  
 1. [Description](#description)

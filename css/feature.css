@@ -100,3 +100,22 @@ nav a.nav-link:hover {
   background-color: rgba(0, 50, 50, 1) !important;
   font-size: 1.25em !important;
 }
+
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.feature img {
+  height: 50px;
+}
+
+.baris > div {
+  border-right: 2px solid grey !important;
+  border-left: 2px solid grey !important;
+  box-sizing: border-box;
+  padding: 20px;
+}

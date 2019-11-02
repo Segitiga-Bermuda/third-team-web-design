@@ -28,7 +28,7 @@ footer .bg-dark {
   background-image: url(/assets/images/header-bg2.png);
   background-position: bottom left;
   background-size: cover;
-  height: 700px;
+  min-height: 700px;
 }
 
 #site-title {
@@ -84,8 +84,166 @@ footer hr {
   font-size: 16px !important;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+.what-we-did {
+  margin: 50px 0;
+}
+
+.what-we-did img:hover {
+  background-color: #005050;
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.what-we-did img {
+  height: auto;
+  margin: 25px auto;
+  width: 90%;
+}
+
+.about-video h1,
+.contact-us h1,
+.what-we-did h1 {
+  color: #455a64;
+  font-weight: 900;
+}
+
+.contact-us button,
+.what-we-did button {
+  background-color: #0ceac5;
+  border-radius: 25px;
+  border: none;
+  height: 50px;
+  width: 150px;
+}
+
+.skills {
+  box-sizing: border-box !important;
+  padding: 25px !important;
+}
+
+.skills p {
+  font-size: 0.75em;
+  font-weight: 100;
+}
+
+.skills h4 {
+  color: #455a64;
+}
+
+.contact-us {
+  text-align: center;
+}
+
+.skills hr,
+.about-video hr,
+.contact-us hr,
+.what-we-did hr {
+  border-color: #455a64;
+  border-width: 3px;
+  width: 200px;
+}
+
+.about-video hr {
+  width: 100px;
+}
+
+.container-fluid.row {
+  min-height: 550px;
+}
+
+form {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px;
+  padding: 25px;
+}
+
+.skills .brand {
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 128px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 128px;
+}
+
+.skills .brand > div {
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 104px;
+  padding: 10px;
+  width: 104px;
+}
+
+.skills .brand > div > div {
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 80px;
+  padding: 20px;
+  width: 80px;
+}
+
+#bulb,
+#bulb > div {
+  border: 2px solid #0ceac5 !important;
+}
+
+#lens,
+#lens > div {
+  border: 2px solid #f48fb1 !important;
+}
+
+#board,
+#board > div {
+  border: 2px solid #82b1ff !important;
+}
+
+#board > div > div {
+  background-color: #82b1ff;
+}
+
+#lens > div > div {
+  background-color: #f48fb1;
+}
+
+#bulb > div > div {
+  background-color: #0ceac5;
+}
+
 h3 {
   font-family: "ZCOOL XiaoWei";
+}
+
+.skills img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 36px;
+}
+
+.contact-us {
+  background-image: url(/assets/images/footer2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 50px;
+}
+
+input,
+textarea {
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: 1px solid #808080 !important;
+  border-left: none !important;
+  border-radius: 0 !important;
+  margin: 25px 0;
 }
 
 h3,

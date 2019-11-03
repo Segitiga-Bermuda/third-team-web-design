@@ -25,6 +25,10 @@ Web template design by the Third Team (Bermuda &#9651; Triangle).
 
 #### Our Version  
 
+1. [Device width: 322px](https://justanaivedreamer.files.wordpress.com/2019/11/screenshot_2019-11-03-home-bermuda-e296b2-triangle.png)
+2. [Device width: 841px](https://justanaivedreamer.files.wordpress.com/2019/11/screenshot_2019-11-03-home-bermuda-e296b2-triangle2.png)
+3. [Device width: 1156px](https://justanaivedreamer.files.wordpress.com/2019/11/screenshot_2019-11-03-home-bermuda-e296b2-triangle3.png)
+
 ## Credits  
 1. [Atallabela Yosua](https://github.com/A-Naive-Dreamer) (Team Leader)
 2. [Amirullah S. Kasang](https://github.com/Amirullah23) (Team Member)

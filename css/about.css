@@ -6,11 +6,16 @@
   background-color: rgba(0, 80, 80, 0.75) !important;
 }
 
+.dropdown-menu {
+  background-color: transparent;
+}
+
 footer .bg-dark {
   background-color: transparent !important;
 }
 
-.nav-link {
+.nav-link,
+.dropdown-item {
   color: #ffffff !important;
   font-weight: 700 !important;
 }
@@ -28,7 +33,11 @@ footer .bg-dark {
   background-image: url(/assets/images/header-bg2.png);
   background-position: bottom left;
   background-size: cover;
-  height: 700px;
+  min-height: 700px;
+}
+
+.jumbotron h1 {
+  margin-top: 25px;
 }
 
 #site-title {
@@ -84,6 +93,15 @@ footer hr {
   font-size: 16px !important;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
 h3 {
   font-family: "ZCOOL XiaoWei";
 }
@@ -96,7 +114,8 @@ nav .navbar-brand {
   font-family: "ZCOOL XiaoWei";
 }
 
-nav a.nav-link:hover {
+nav a.nav-link:hover,
+.dropdown-item:hover {
   background-color: rgba(0, 50, 50, 1) !important;
   font-size: 1.25em !important;
 }
@@ -155,4 +174,49 @@ nav a.nav-link:hover {
 
 .about h3 {
   font-size: 50pt;
+}
+
+#nav-2 {
+  display: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .jumbotron .btn {
+    border-color: #00aa00;
+    color: #008080;
+    font-size: 1em !important;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10 25px;
+  }
+  #nav-1 {
+    display: none !important;
+  }
+
+  #nav-2 {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+  .jumbotron .btn {
+    font-size: 0.9em !important;
+    font-weight: 700 !important;
+    margin: 5px !important;
+    padding: 10px 30px !important;
+  }
+
+  footer .brand {
+    height: 25px;
+    width: auto;
+  }
+}
+
+.jumbotron .btn:hover {
+  border-color: #0000ff !important;
+  color: #0000ff !important;
 }

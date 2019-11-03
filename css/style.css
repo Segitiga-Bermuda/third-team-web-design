@@ -6,11 +6,16 @@
   background-color: rgba(0, 80, 80, 0.75) !important;
 }
 
+.dropdown-menu {
+  background-color: transparent;
+}
+
 footer .bg-dark {
   background-color: transparent !important;
 }
 
-.nav-link {
+.nav-link,
+.dropdown-item {
   color: #ffffff !important;
   font-weight: 700 !important;
 }
@@ -29,6 +34,10 @@ footer .bg-dark {
   background-position: bottom left;
   background-size: cover;
   min-height: 700px;
+}
+
+.jumbotron h1 {
+  margin-top: 25px;
 }
 
 #site-title {
@@ -109,6 +118,7 @@ h6 {
   width: 90%;
 }
 
+.web-title h1,
 .about-video h1,
 .contact-us h1,
 .what-we-did h1 {
@@ -143,6 +153,7 @@ h6 {
   text-align: center;
 }
 
+.web-title hr,
 .skills hr,
 .about-video hr,
 .contact-us hr,
@@ -255,7 +266,53 @@ nav .navbar-brand {
   font-family: "ZCOOL XiaoWei";
 }
 
-nav a.nav-link:hover {
+nav a.nav-link:hover,
+.dropdown-item:hover {
   background-color: rgba(0, 50, 50, 1) !important;
   font-size: 1.25em !important;
+}
+
+#nav-2 {
+  display: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .jumbotron .btn {
+    border-color: #00aa00;
+    color: #008080;
+    font-size: 1em !important;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10 25px;
+  }
+  #nav-1 {
+    display: none !important;
+  }
+
+  #nav-2 {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+  .jumbotron .btn {
+    font-size: 0.9em !important;
+    font-weight: 700 !important;
+    margin: 5px !important;
+    padding: 10px 30px !important;
+  }
+
+  footer .brand {
+    height: 25px;
+    width: auto;
+  }
+}
+
+.jumbotron .btn:hover {
+  border-color: #0000ff !important;
+  color: #0000ff !important;
 }

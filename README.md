@@ -18,6 +18,8 @@ Web template design by the Third Team (Bermuda &#9651; Triangle).
 
 ### Usage  
 
+1. Type ```https://third-team-web-design.netlify.com/``` at Your browser URL field to watch site live.
+
 ### Screenshots
 
 #### Original Version  
